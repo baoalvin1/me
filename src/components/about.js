@@ -145,6 +145,15 @@ export default class About extends Component {
                     <h2 className="mb-4"> Work Experience</h2>
                     <div className="exp-wrap py-4">
                       <div className="desc">
+                        <h4>Pagarba<span> - Machine Learning/Blockchain Intern</span> </h4>
+                        <p className="location">Marietta, Georgia</p>
+                      </div>
+                      <div className="year">
+                        <p>Summer 2020</p>
+                      </div>
+                    </div>
+                    <div className="exp-wrap py-4">
+                      <div className="desc">
                         <h4>Barista<span> - Starbucks</span> </h4>
                         <p className="location">Cary, North Carolina</p>
                       </div>
@@ -254,6 +263,26 @@ export default class About extends Component {
                     <div className="progress">
                       <div className="progress-bar color-1" role="progressbar" aria-valuenow={40} aria-valuemin={0} aria-valuemax={100} style={{width: '40%'}}>
                         <span>2/5</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                  <div className="progress-wrap">
+                    <h4>Firebase</h4>
+                    <div className="progress">
+                      <div className="progress-bar color-1" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{width: '60%'}}>
+                        <span>3/5</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                  <div className="progress-wrap">
+                    <h4>Android</h4>
+                    <div className="progress">
+                      <div className="progress-bar color-1" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{width: '60%'}}>
+                        <span>3/5</span>
                       </div>
                     </div>
                   </div>
