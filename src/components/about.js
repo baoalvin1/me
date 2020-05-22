@@ -145,7 +145,7 @@ export default class About extends Component {
                     <h2 className="mb-4"> Work Experience</h2>
                     <div className="exp-wrap py-4">
                       <div className="desc">
-                        <h4>Pagarba<span> - Machine Learning/Blockchain Intern</span> </h4>
+                        <h4>Pagarba<span> - Software Engineer Intern</span> </h4>
                         <p className="location">Marietta, Georgia</p>
                       </div>
                       <div className="year">
