@@ -279,7 +279,7 @@ export default class About extends Component {
                 </div>
                 <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
                   <div className="progress-wrap">
-                    <h4>Android</h4>
+                    <h4>Android Studio</h4>
                     <div className="progress">
                       <div className="progress-bar color-1" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{width: '60%'}}>
                         <span>3/5</span>
@@ -290,6 +290,16 @@ export default class About extends Component {
                 <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
                   <div className="progress-wrap">
                     <h4>Tensorflow</h4>
+                    <div className="progress">
+                      <div className="progress-bar color-1" role="progressbar" aria-valuenow={40} aria-valuemin={0} aria-valuemax={100} style={{width: '40%'}}>
+                        <span>2/5</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                  <div className="progress-wrap">
+                    <h4>React Native</h4>
                     <div className="progress">
                       <div className="progress-bar color-1" role="progressbar" aria-valuenow={40} aria-valuemin={0} aria-valuemax={100} style={{width: '40%'}}>
                         <span>2/5</span>
