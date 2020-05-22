@@ -90,6 +90,37 @@ export default class About extends Component {
                     </div>*/}
                   </div>
                   <div className="exp mt-5 ftco-animate">
+                    <h2 className="mb-4"> Work Experience</h2>
+                    <div className="exp-wrap py-4">
+                      <div className="desc">
+                        <h4>Pagarba<span> - Software Engineer Intern</span> </h4>
+                        <p className="location">Marietta, Georgia</p>
+                      </div>
+                      <div className="year">
+                        <p>Summer 2020</p>
+                      </div>
+                    </div>
+                    <div className="exp-wrap py-4">
+                      <div className="desc">
+                        <h4>Barista<span> - Starbucks</span> </h4>
+                        <p className="location">Cary, North Carolina</p>
+                      </div>
+                      <div className="year">
+                        <p>2018 - 2019</p>
+                      </div>
+                    </div>
+                    <div className="exp-wrap py-4">
+                      <div className="desc">
+                        <h4>Chinese School Tutor <span> - Cary Chinese School</span> </h4>
+                        <p className="location">Cary, North Carolina</p>
+                      </div>
+                      <div className="year">
+                        <p>2015 - 2019</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="exp mt-5 ftco-animate">
                     <h2 className="mb-4"> Clubs and Leadership</h2>
                     <div className="exp-wrap py-4">
                       <div className="desc">
@@ -141,36 +172,7 @@ export default class About extends Component {
                       </div>
                     </div>
                   </div>
-                  <div className="exp mt-5 ftco-animate">
-                    <h2 className="mb-4"> Work Experience</h2>
-                    <div className="exp-wrap py-4">
-                      <div className="desc">
-                        <h4>Pagarba<span> - Software Engineer Intern</span> </h4>
-                        <p className="location">Marietta, Georgia</p>
-                      </div>
-                      <div className="year">
-                        <p>Summer 2020</p>
-                      </div>
-                    </div>
-                    <div className="exp-wrap py-4">
-                      <div className="desc">
-                        <h4>Barista<span> - Starbucks</span> </h4>
-                        <p className="location">Cary, North Carolina</p>
-                      </div>
-                      <div className="year">
-                        <p>2018 - 2019</p>
-                      </div>
-                    </div>
-                    <div className="exp-wrap py-4">
-                      <div className="desc">
-                        <h4>Chinese School Tutor <span> - Cary Chinese School</span> </h4>
-                        <p className="location">Cary, North Carolina</p>
-                      </div>
-                      <div className="year">
-                        <p>2015 - 2019</p>
-                      </div>
-                    </div>
-                  </div>
+
                 </div>
               </div>
               <div className="row mt-5 flex-column ftco-animate">
