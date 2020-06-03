@@ -61,9 +61,9 @@ export default class About extends Component {
                     </p>
                     <p><a href="https://drive.google.com/file/d/1De1usTqS7iGcFO3mYjsQrYrfjFjv3xnH/view?usp=sharing">Download my resume</a></p>
                     <ul className="ftco-footer-social list-unstyled mt-4">
-                      <li><a href="#"><span className="icon-twitter" /></a></li>
-                      <li><a href="#"><span className="icon-facebook" /></a></li>
-                      <li><a href="#"><span className="icon-instagram" /></a></li>
+                      <li><a href="https://www.linkedin.com/in/alvinbao"><span className="icon-linkedin" /></a></li>
+                      <li><a href="https://github.com/baoalvin1"><span className="icon-github" /></a></li>
+                      <li><a href="https://www.instagram.com/alvinbao/?hl=en"><span className="icon-instagram" /></a></li>
                     </ul>
                     <h5>Contact me here!</h5>
                     <p>Email: <a href="mailto:abao9@gatech.edu?Subject=Website%20Contact">abao9@gatech.edu</a></p>
