@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import pdf from '../files/Alvin_Bao_Resume.pdf'
 export default class Home extends Component {
   render() {
     return (
@@ -104,11 +105,14 @@ export default class Home extends Component {
 
               </div>
               <div className="p-5">
-              <p>I'm currently an undergraduate student majoring in computer science at Georgia Tech. I love attending hackathons and taking on challenging projects.
-              I have experience in Python, Java, C++, JavaScript, HTML, CSS, Node.js, and React which is what this website was built in.
-              If you want to find out more about me click on the links below!</p>
+              <p>I'm an undergraduate student at Georgia Tech majoring in computer science.
+              The two things that I love most are writing code and helping people!
+              Currently I'm a Google DSC Lead and a CS1100 TA.
+              As a DSC Lead I get people excited about Google developer technologies regardless of their level of experience.
+              As a CS1100 TA I'm a mentor for incoming CS freshmen as they acclimate to Georgia Tech.
+              In my free time while I'm not coding I enjoy playing the trombone or watching NBA basketball! </p>
               <p><a href="about">Check out my resume</a></p>
-              <p><a href="https://drive.google.com/file/d/1De1usTqS7iGcFO3mYjsQrYrfjFjv3xnH/view?usp=sharing">Download my resume</a></p>
+              <p><a href={pdf}>Download my resume</a></p>
               <ul className="ftco-footer-social list-unstyled mt-4">
                 <li><a href="https://www.linkedin.com/in/alvinbao"><span className="icon-linkedin" /></a></li>
                 <li><a href="https://github.com/baoalvin1"><span className="icon-github" /></a></li>
@@ -197,7 +201,7 @@ export default class Home extends Component {
         <h4 className="subheading">Machine Learning WebApp</h4>
         <h2 className="heading"><a href="https://github.com/k-shenoy/GameRank">Game Rank</a></h2>
         <p>This project used game scores and attendance to predict watchability of NBA and NFL games. Winner of Best Use of Google Cloud at UGAHacks5.
-        I was responsible for the frontend development of webapp using PyQt5 React and Node.js.</p>
+        I was responsible for the frontend development of the webapp using PyQt5 React and Node.js.</p>
         <p><a href="https://github.com/k-shenoy/GameRank">View Project in Github</a></p>
       </div>
     </div>

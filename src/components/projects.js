@@ -73,7 +73,7 @@ export default class Projects extends Component {
           <h4 className="subheading">Machine Learning WebApp</h4>
           <h2 className="heading"><a href="https://github.com/k-shenoy/GameRank">Game Rank</a></h2>
           <p>This project used game scores and attendance to predict watchability of NBA and NFL games. Winner of Best Use of Google Cloud at UGAHacks5.
-          I was responsible for the frontend development of webapp using PyQt5 React and Node.js.</p>
+          I was responsible for the frontend development of the webapp using PyQt5 React and Node.js.</p>
           <p><a href="https://github.com/k-shenoy/GameRank">View Project in Github</a></p>
         </div>
       </div>

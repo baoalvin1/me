@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import pdf from '../files/Alvin_Bao_Resume.pdf'
 export default class About extends Component {
   render() {
     return (
@@ -53,13 +54,15 @@ export default class About extends Component {
 
                     </div>
                     <div className="p-5">
-                    <p>I'm currently an undergraduate student majoring in computer science at Georgia Tech. I love attending hackathons and taking on challenging projects.
-                    I have experience in Python, Java, C++, JavaScript, HTML, CSS, Node.js, and React which is what this website was built in.
-                    While I love coding, my other hobbies include basketball, trombone, and reading. Fun fact: I was 4th chair trombone in the 2019 Honor Band of America.
-                    If I'm not doing any of these things you can probably find me hanging out with my wonderful friends at Georgia Tech. Scroll down to read more!
+                    <p>I'm an undergraduate student at Georgia Tech majoring in computer science.
+                    The two things that I love most are writing code and helping people!
+                    Currently I'm a Google DSC Lead and a CS1100 TA.
+                    As a DSC Lead I get people excited about Google developer technologies regardless of their level of experience.
+                    As a CS1100 TA I'm a mentor for incoming CS freshmen as they acclimate to Georgia Tech.
+                    In my free time while I'm not coding I enjoy playing the trombone or watching NBA basketball! Scroll down to read more!
 
                     </p>
-                    <p><a href="https://drive.google.com/file/d/1De1usTqS7iGcFO3mYjsQrYrfjFjv3xnH/view?usp=sharing">Download my resume</a></p>
+                    <p><a href={pdf}>Download my resume</a></p>
                     <ul className="ftco-footer-social list-unstyled mt-4">
                       <li><a href="https://www.linkedin.com/in/alvinbao"><span className="icon-linkedin" /></a></li>
                       <li><a href="https://github.com/baoalvin1"><span className="icon-github" /></a></li>
@@ -74,7 +77,7 @@ export default class About extends Component {
                 <div className="col-md-10">
                   <div className="profile ftco-animate">
                     <h2 className="mb-4">Resume</h2>
-                    <h4 className="mb-4">I'm a Software Developer from Cary, NC. I am the creative mind behind imaginative solutions.</h4>
+                    <h4 className="mb-4">I'm a Google DSC Lead and a CS 1100 TA</h4>
                     <p>I am an avid learner and have experience with Frontend Development, Fullstack Development, Machine Learning, and Mobile Development</p>
                     {/*<div className="row my-5">
                       <div className="col-md-6">
@@ -100,28 +103,37 @@ export default class About extends Component {
                         <p>Summer 2020</p>
                       </div>
                     </div>
-                    <div className="exp-wrap py-4">
-                      <div className="desc">
-                        <h4>Barista<span> - Starbucks</span> </h4>
-                        <p className="location">Cary, North Carolina</p>
-                      </div>
-                      <div className="year">
-                        <p>2018 - 2019</p>
-                      </div>
-                    </div>
-                    <div className="exp-wrap py-4">
-                      <div className="desc">
-                        <h4>Chinese School Tutor <span> - Cary Chinese School</span> </h4>
-                        <p className="location">Cary, North Carolina</p>
-                      </div>
-                      <div className="year">
-                        <p>2015 - 2019</p>
-                      </div>
-                    </div>
                   </div>
 
                   <div className="exp mt-5 ftco-animate">
                     <h2 className="mb-4"> Clubs and Leadership</h2>
+                    <div className="exp-wrap py-4">
+                      <div className="desc">
+                        <h4>Developer Student Clubs<span> - Lead</span> </h4>
+                        <p className="location">Atlanta, Georgia</p>
+                      </div>
+                      <div className="year">
+                        <p>2020 - Present</p>
+                      </div>
+                    </div>
+                    <div className="exp-wrap py-4">
+                      <div className="desc">
+                        <h4>Georgia Institute of Technology<span> - CS 1100 TA</span> </h4>
+                        <p className="location">Atlanta, Georgia</p>
+                      </div>
+                      <div className="year">
+                        <p>2020 - Present</p>
+                      </div>
+                    </div>
+                    <div className="exp-wrap py-4">
+                      <div className="desc">
+                        <h4>Rising Entrepreneur Society at Georgia Tech<span> - President & Founder</span> </h4>
+                        <p className="location">Atlanta, Georgia</p>
+                      </div>
+                      <div className="year">
+                        <p>2020 - Present</p>
+                      </div>
+                    </div>
                     <div className="exp-wrap py-4">
                       <div className="desc">
                         <h4>Georgia Tech ACM Programming Team<span> - General Member</span> </h4>
