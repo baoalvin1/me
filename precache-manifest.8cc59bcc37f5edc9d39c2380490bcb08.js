@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e1cad64810413d7df16b3d9adb9a70f0",
+    "revision": "daf7f01e74d9f9d0d17ade274b77c7e8",
     "url": "/me/index.html"
   },
   {
-    "revision": "3c237a663050c1775b69",
+    "revision": "cb3731aee86658174630",
     "url": "/me/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "5d2477d5183b3e951ebd",
-    "url": "/me/static/js/2.48b4916e.chunk.js"
+    "revision": "262fe11996dd930dbca5",
+    "url": "/me/static/js/2.437cd02f.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/me/static/js/2.48b4916e.chunk.js.LICENSE.txt"
+    "url": "/me/static/js/2.437cd02f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3c237a663050c1775b69",
-    "url": "/me/static/js/main.4a8d774e.chunk.js"
+    "revision": "cb3731aee86658174630",
+    "url": "/me/static/js/main.da9eeb1a.chunk.js"
   },
   {
     "revision": "62972497a0b6ef7e5116",
     "url": "/me/static/js/runtime-main.3a9231b4.js"
+  },
+  {
+    "revision": "56e020f66c06609cd6fcd57c491200a6",
+    "url": "/me/static/media/Alvin_Bao_Resume.56e020f6.pdf"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
